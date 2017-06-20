@@ -31,3 +31,12 @@ Wevo 這專案用的框架是 [react-boilerplate](https://github.com/react-boile
 硬要說缺點的話，就是 redux async 的方案我不喜歡， redux-saga 採用的方法是 generator 的方式，此方式實在沒有很好閱讀、維護。 Node.js 都支援 async, wait 的方式了。更不用說沒支援 ReactiveX 了。　個人還是想朝 ReactiveX 下去磨練。
 把 HTML tag 改寫成 component 方式我第一次看到，這樣寫有很強的優點在，可以一次設定完所有的 styles 。 `styled-components` 我有感受到這　library 的強大了，比起官方的 JSX 把 Html、CSS 一起混搭進去在 Javascript 裡面框架清楚很多！
 
+```javascript
+// Install ServiceWorker and AppCache in the end since
+// it's not most important operation and if main code fails,
+// we do not want it installed
+if (process.env.NODE_ENV === 'production') {
+  require('offline-plugin/runtime').install(); // eslint-disable-line global-require
+}
+```
+webpack 的plugin `offline-plugin` ，原來有這麼強大的 plugin ，讓 User 看過的頁面都緩存起來。但這邊註解也有提到，如果你的 code fial 掉的話也沒甚麼幫助，所以並不是一定要使用此方案，看來還是視情況而定了！！
