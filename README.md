@@ -42,7 +42,8 @@ if (process.env.NODE_ENV === 'production') {
 webpack 的plugin `offline-plugin` ，原來有這麼強大的 plugin ，讓 User 看過的頁面都緩存起來。但這邊註解也有提到，如果你的 code fial 掉的話也沒甚麼幫助，所以並不是一定要使用此方案，看來還是視情況而定了！！
 
 
-待會也看一下 SASS
+待會也看一下 SASS 。搜尋了一下，目前沒有寫任何 SASS ，有用到的都是第三方的 library e.x. bootstrap 。
+
 
 有說這套系統是要給「客戶」使用的，那我想 SEO 的重要性就很低了，因為目前這套基底是 CSR 架構，不方便做 SEO ，希望最初的架構師有想到這個因素。
 （我要趁機研究一下 pre render 嗎？～）
