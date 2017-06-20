@@ -1,5 +1,3 @@
-# Wisers2017
-personal notes
 
 # `慧科 Wisers 工作紀錄`
 
