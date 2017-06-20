@@ -31,6 +31,10 @@ Wevo 這專案用的框架是 [react-boilerplate](https://github.com/react-boile
 硬要說缺點的話，就是 redux async 的方案我不喜歡， redux-saga 採用的方法是 generator 的方式，此方式實在沒有很好閱讀、維護。 Node.js 都支援 async, wait 的方式了。更不用說沒支援 ReactiveX 了。　個人還是想朝 ReactiveX 下去磨練。
 把 HTML tag 改寫成 component 方式我第一次看到，這樣寫有很強的優點在，可以一次設定完所有的 styles 。 `styled-components` 我有感受到這　library 的強大了，比起官方的 JSX 把 Html、CSS 一起混搭進去在 Javascript 裡面框架清楚很多！
 
+想到一個 `styled-components` 的缺點，這樣寫成 Javascript 以後，我們的 IDE 就沒有辦法用 plugin 來 css color highlight 了！　這個很可惜
+像我這樣 css 弱雞，看到 `background-color: #fafafa` 的時候，根本沒辦法一時想像出是甚麼顏色！！！！
+
+
 ```javascript
 // Install ServiceWorker and AppCache in the end since
 // it's not most important operation and if main code fails,
