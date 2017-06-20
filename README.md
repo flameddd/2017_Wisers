@@ -21,5 +21,6 @@ reselect 目的是為了改善 redux 效能，但感覺這個方案玩的很極�
 
 接著繼續熟悉 immutable 吧，這邊當初就沒有很熟
 最主要是 array, object 不好比較，所以透過 immutable.is 來處理不但方便、又快速！
+比較的時候，它是拿內部的 hash 去做比較，沒有做「歷遍」，所以這樣效能好。
 
 仔細看了點 [react-decoration](https://github.com/mbasso/react-decoration) ，原來這麼強大，看來是很好用的工具！
