@@ -54,3 +54,37 @@ webpack 的plugin `offline-plugin` ，原來有這麼強大的 plugin ，讓 Use
 （我要趁機研究一下 pre render 嗎？～）
 
 明天香港的同事要來跟我們解釋系統！ 
+
+## 20230206
+一直想記錄一下工作的同事，不然以後都忘掉  
+
+`Uriah Wu`:
+- 當時的主管，人不錯
+- https://www.linkedin.com/in/uriah-wu-a5a99639/
+
+![](./UriahWu.jpeg)  
+
+
+`Victor Ho`
+- 後端、香港人、一直請我喝咖啡
+- 很好合作
+- https://www.linkedin.com/in/victor-ho-482973a7/
+
+
+`Owen Hsieh`
+- 前端、好相處、有個性
+- https://www.linkedin.com/in/owen-hsieh/
+
+![](./OwenHsieh.jpeg)  
+
+
+`Tony`
+- 前端
+
+`Xing`
+- 前端
+
+`Ning`
+- 前端
+
+上面幾位沒找到 LinkedIn  
