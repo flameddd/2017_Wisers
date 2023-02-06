@@ -62,7 +62,7 @@ webpack 的plugin `offline-plugin` ，原來有這麼強大的 plugin ，讓 Use
 - 當時的主管，人不錯
 - https://www.linkedin.com/in/uriah-wu-a5a99639/
 
-![](./UriahWu.jpeg)  
+![](./assets/UriahWu.jpeg)  
 
 
 `Victor Ho`
@@ -75,7 +75,7 @@ webpack 的plugin `offline-plugin` ，原來有這麼強大的 plugin ，讓 Use
 - 前端、好相處、有個性
 - https://www.linkedin.com/in/owen-hsieh/
 
-![](./OwenHsieh.jpeg)  
+![](./assets/OwenHsieh.jpeg)  
 
 
 `Tony`
